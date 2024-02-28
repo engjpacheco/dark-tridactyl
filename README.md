@@ -1,22 +1,24 @@
-# catppuccin-tridactyl
+# Tridactyl Theme
 
-## Install
-`:colourscheme --url https://raw.githubusercontent.com/lonepie/catppuccin-tridactyl/main/catppuccin.css catppuccin`
+Tridactyl colourschemes
 
-## Customization
-- Fork the repo
-- Edit CSS vars to change colors/font to your preference
-- Use `:colourscheme --url https://raw.githubusercontent.com/<user>/catppuccin-tridactyl/main/catppuccin.css catppuccin_custom` command to set your custom theme
+## Dracula
 
-### Example: 
+To use this theme run the Tridactyl command:
 
-`--tridactyl-url-fg: var(--pink);` Change `--pink` to the color you prefer.
+```txt
+colourscheme --url https://cdn.jsdelivr.net/gh/rasch/tridactyl-theme/dracula.min.css dracula
+```
 
-Available colors correspond to [catppuccin colors](https://catppuccintheme.com/contribute): pink, purple, red, etc...
+or to use the drop-down variation:
 
-Change the font:
+```txt
+colourscheme --url https://cdn.jsdelivr.net/combine/gh/rasch/tridactyl-theme/dracula.min.css,gh/rasch/tridactyl-theme/drop-down.min.css dracula
+```
 
-`--font: "FiraCode Nerd Font Mono";` Change to `--font: "font-of-your-choice";`
+What does it look like?
 
-## Credit
-Based on [base16-tridactyl](https://github.com/bezmi/base16-tridactyl)
+![Tridactyl Dracula Screenshot](https://github.com/rasch/tridactyl-theme/assets/24926717/43832c5a-1b5f-412b-b6cb-93817c767feb)
+![Tridactyl Dracula Screenshot](https://github.com/rasch/tridactyl-theme/assets/24926717/3615c89e-1071-4c24-a4d1-159786b0915c)
+![Tridactyl Dracula Screenshot](https://github.com/rasch/tridactyl-theme/assets/24926717/325c0eff-7846-43c6-9ce9-caca6cde9daf)
+![Tridactyl Dracula Screenshot](https://github.com/rasch/tridactyl-theme/assets/24926717/1a499473-ba12-4822-ac63-d5b01252d059)
