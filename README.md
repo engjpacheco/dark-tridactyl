@@ -2,12 +2,12 @@
 
 Tridactyl colourschemes
 
-## Dracula
+## Base16
 
 To use this theme run the Tridactyl command:
 
 ```txt
-colourscheme --url https://cdn.jsdelivr.net/gh/rasch/tridactyl-theme/dracula.min.css dracula
+:colourscheme --url https://raw.githubusercontent.com/dfcs23/base16-default-dark-tridactyl/main/base16-dark.css darkdefault
 ```
 
 or to use the drop-down variation:
