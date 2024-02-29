@@ -1,8 +1,8 @@
 # Tridactyl Theme
 
-Tridactyl colourschemes
+Tridactyl base16-default-dark theme
 
-## Base16
+## How to install:
 
 To use this theme run the Tridactyl command:
 
@@ -17,3 +17,6 @@ Fork the repo
 Edit CSS vars to change colors/font to your preference
 Use :colourscheme --url https://raw.githubusercontent.com/<user>/<your_custom_repository_name>/main/<your_custom_css_name>.css css_custom command to set your custom theme
 ```
+## Credits:
+
+Based: https://github.com/lonepie/catppuccin-tridactyl.git
