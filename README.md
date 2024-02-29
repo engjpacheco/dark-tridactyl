@@ -20,4 +20,6 @@ Use :colourscheme --url https://raw.githubusercontent.com/<user>/<your_custom_re
 
 What does it look like?
 
+<img src="https://codeberg.org/d13g0/dotfiles/main/screenshots/29:Feb-10:39:15.png" style=" width:100px ; height:100px " />
+
 ![Tridactyl Base16-default-dark Screenshot](http://codeberg.org/d13g0/dotfiles/main/screenshots/29:Feb-10:39:15.png)
