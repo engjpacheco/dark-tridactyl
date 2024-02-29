@@ -19,7 +19,7 @@
   --tridactyl-font-size: 11px;
   --tridactyl-small-font-size: 11px;
   --tridactyl-bg: var(--default-background);
-  --tridactyl-fg: var(--default-comment);
+  --tridactyl-fg: var(--default-foreground);
   --tridactyl-scrollbar-color: auto;
 
   /* Mode Indicator */
