@@ -14,8 +14,8 @@
   --default-bright-cyan: #75b5aa;
 
   /* Generic */
-  --tridactyl-font-family: Hack Nerd Font;
-  --tridactyl-font-family-sans: Hack Nerd Font;
+  --tridactyl-font-family: IBM Plex Mono;
+  --tridactyl-font-family-sans: IBM Plex Mono;
   --tridactyl-font-size: 11px;
   --tridactyl-small-font-size: 11px;
   --tridactyl-bg: var(--default-background);
