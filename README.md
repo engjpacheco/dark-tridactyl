@@ -20,4 +20,4 @@ Use :colourscheme --url https://raw.githubusercontent.com/<user>/<your_custom_re
 
 What does it look like?
 
-![Tridactyl Dracula Screenshot](https://github.com/rasch/tridactyl-theme/assets/24926717/1a499473-ba12-4822-ac63-d5b01252d059)
+![Tridactyl Base16-default-dark Screenshot](http://codeberg.org/d13g0/dotfiles/screenshots/29:Feb-10:39:15.png)
