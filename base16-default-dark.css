@@ -1,32 +1,32 @@
 :root {
-  --dracula-background: #101010;
-  --dracula-foreground: #d0d0d0;
-  --dracula-current-line: #505050;
-  --dracula-comment: #f4bf75;
-  --dracula-black: #181818;
-  --dracula-red: #ac4142;
-  --dracula-orange: #ffb86c;
-  --dracula-yellow: #f4bf75;
-  --dracula-green: #90a959;
-  --dracula-purple: #bd93f9;
-  --dracula-cyan: #8be9fd;
-  --dracula-pink: #ff79c6;
-  --dracula-bright-cyan: #a4ffff;
+  --default-background: #101010;
+  --default-foreground: #d0d0d0;
+  --default-current-line: #505050;
+  --default-comment: #f4bf75;
+  --default-black: #181818;
+  --default-red: #ac4142;
+  --default-orange: #ffb86c;
+  --default-yellow: #f4bf75;
+  --default-green: #90a959;
+  --default-purple: #aa759f;
+  --default-cyan: #6a9fb5;
+  --default-pink: #ff79c6;
+  --default-bright-cyan: #75b5aa;
 
   /* Generic */
   --tridactyl-font-family: Hack Nerd Font;
   --tridactyl-font-family-sans: Hack Nerd Font;
   --tridactyl-font-size: 11px;
   --tridactyl-small-font-size: 11px;
-  --tridactyl-bg: var(--dracula-background);
-  --tridactyl-fg: var(--dracula-comment);
+  --tridactyl-bg: var(--default-background);
+  --tridactyl-fg: var(--default-comment);
   --tridactyl-scrollbar-color: auto;
 
   /* Mode Indicator */
   --tridactyl-status-font-family: var(--tridactyl-font-family);
   --tridactyl-status-font-size: var(--tridactyl-small-font-size);
   --tridactyl-status-bg: none;
-  --tridactyl-status-fg: var(--dracula-foreground);
+  --tridactyl-status-fg: var(--default-foreground);
   --tridactyl-status-border: 0;
   --tridactyl-status-border-radius: 6px;
 
@@ -34,10 +34,10 @@
   --tridactyl-hintspan-font-family: var(--tridactyl-font-family);
   --tridactyl-hintspan-font-size: var(--tridactyl-small-font-size);
   --tridactyl-hintspan-font-weight: bold;
-  --tridactyl-hintspan-fg: var(--dracula-black);
-  --tridactyl-hintspan-bg: var(--dracula-green);
+  --tridactyl-hintspan-fg: var(--default-black);
+  --tridactyl-hintspan-bg: var(--default-green);
   --tridactyl-hintspan-border-width: 0;
-  --tridactyl-hintspan-js-background: var(--dracula-red);
+  --tridactyl-hintspan-js-background: var(--default-red);
 
   /* Hint Element Highlights */
   --tridactyl-hint-bg: none;
@@ -47,50 +47,50 @@
   --tridactyl-hint-active-outline: 0;
 
   /* :viewsource */
-  --tridactyl-vs-bg: var(--dracula-black);
-  --tridactyl-vs-fg: var(--dracula-comment);
+  --tridactyl-vs-bg: var(--default-black);
+  --tridactyl-vs-fg: var(--default-comment);
   --tridactyl-vs-font-family: var(--tridactyl-font-family);
 
   /* Commandline */
-  --tridactyl-cmdl-bg: var(--dracula-background);
-  --tridactyl-cmdl-fg: var(--dracula-foreground);
+  --tridactyl-cmdl-bg: var(--default-background);
+  --tridactyl-cmdl-fg: var(--default-foreground);
   --tridactyl-cmdl-line-height: 1.6;
-  --tridactyl-cmdl-font-family: monospace;
+  --tridactyl-cmdl-font-family: Hack Nerd Font;
   --tridactyl-cmdl-font-size: var(--tridactyl-small-font-size);
 
   /* Completions */
   --tridactyl-cmplt-option-height: 1.4em;
-  --tridactyl-cmplt-fg: var(--dracula-comment);
-  --tridactyl-cmplt-bg: var(--dracula-background);
+  --tridactyl-cmplt-fg: var(--default-comment);
+  --tridactyl-cmplt-bg: var(--default-background);
   --tridactyl-cmplt-font-size: var(--tridactyl-small-font-size);
-  --tridactyl-cmplt-font-family: monospace;
+  --tridactyl-cmplt-font-family: Hack Nerd Font;
   --tridactyl-cmplt-border-top: 0;
 
   /* Header */
-  --tridactyl-header-first-bg: var(--dracula-black);
-  --tridactyl-header-second-bg: var(--dracula-black);
-  --tridactyl-header-third-bg: var(--dracula-black);
+  --tridactyl-header-first-bg: var(--default-black);
+  --tridactyl-header-second-bg: var(--default-black);
+  --tridactyl-header-third-bg: var(--default-black);
   --tridactyl-header-font-size: inherit;
   --tridactyl-header-font-weight: normal;
   --tridactyl-header-border-bottom: 0;
 
   /* URL Style */
   --tridactyl-url-text-decoration: none;
-  --tridactyl-url-fg: var(--dracula-green);
+  --tridactyl-url-fg: var(--default-green);
   --tridactyl-url-bg: none;
   --tridactyl-url-cursor: pointer;
 
   /* Handle the selected URL's color */
-  --tridactyl-photon-colours-accent-1: var(--dracula-green);
+  --tridactyl-photon-colours-accent-1: var(--default-green);
 
   /* Option Focused */
-  --tridactyl-of-fg: var(--dracula-foreground);
-  --tridactyl-of-bg: var(--dracula-current-line);
+  --tridactyl-of-fg: var(--default-foreground);
+  --tridactyl-of-bg: var(--default-current-line);
 
   /* New Tab Page Spoiler Box (Changelog) */
-  --tridactyl-highlight-box-bg: var(--dracula-black);
-  --tridactyl-highlight-box-fg: var(--dracula-comment);
-  --tridactyl-photon-colours-in-content-box-border-color: var(--dracula-black) !important;
+  --tridactyl-highlight-box-bg: var(--default-black);
+  --tridactyl-highlight-box-fg: var(--default-comment);
+  --tridactyl-photon-colours-in-content-box-border-color: var(--default-black) !important;
 
   /* Private Window Icon */
   --tridactyl-private-window-icon-url: url("chrome://browser/skin/privateBrowsing.svg");
@@ -110,24 +110,24 @@
   --tridactyl-container-chill-url: url("resource://usercontext-content/chill.svg");
 
   /* Container Colors */
-  --tridactyl-container-color-blue: var(--dracula-cyan);
-  --tridactyl-container-color-turquoise: var(--dracula-bright-cyan);
-  --tridactyl-container-color-green: var(--dracula-green);
-  --tridactyl-container-color-yellow: var(--dracula-yellow);
-  --tridactyl-container-color-orange: var(--dracula-orange);
-  --tridactyl-container-color-red: var(--dracula-red);
-  --tridactyl-container-color-pink: var(--dracula-pink);
-  --tridactyl-container-color-purple: var(--dracula-purple);
+  --tridactyl-container-color-blue: var(--default-cyan);
+  --tridactyl-container-color-turquoise: var(--default-bright-cyan);
+  --tridactyl-container-color-green: var(--default-green);
+  --tridactyl-container-color-yellow: var(--default-yellow);
+  --tridactyl-container-color-orange: var(--default-orange);
+  --tridactyl-container-color-red: var(--default-red);
+  --tridactyl-container-color-pink: var(--default-pink);
+  --tridactyl-container-color-purple: var(--default-purple);
 }
 
 /*
 # Private Windows
 
 Mode Indicator: This has a white background by default, which didn't work so
-well with the Dracula foreground color (#f8f8f2).
+well with the default foreground color (#f8f8f2).
 
 Icon Color: The default black SVG icon color doesn't contrast enough with the
-Dracula background color.
+default background color.
 */
 
 .TridactylPrivate {
@@ -135,7 +135,7 @@ Dracula background color.
 }
 
 .TridactylOwnNamespace .option.incognito .privatewindow {
-  fill: var(--dracula-comment) !important;
+  fill: var(--default-comment) !important;
 }
 
 /*
@@ -159,47 +159,47 @@ Gutoskey, Ellen. “The Smart—and Scientific—Reason Freddy Krueger’s
 */
 
 #trinewtab #nagbar-changelog {
-  background: var(--dracula-current-line) !important;
-  color: var(--dracula-pink) !important;
+  background: var(--default-current-line) !important;
+  color: var(--default-pink) !important;
 }
 
 #trinewtab input[id^="spoiler"] + label {
-  background: var(--dracula-comment) !important;
-  color: var(--dracula-foreground) !important;
+  background: var(--default-comment) !important;
+  color: var(--default-foreground) !important;
 }
 
 /*
 # Tridactyl Help Page
 
-Use the Dracula color theme on the `:help` page.
+Use the default color theme on the `:help` page.
 */
 
 .TridactylOwnNamespace .tsd-flag {
-  background-color: var(--dracula-current-line) !important;
-  color: var(--dracula-foreground) !important;
+  background-color: var(--default-current-line) !important;
+  color: var(--default-foreground) !important;
 }
 
 .TridactylOwnNamespace .tsd-panel,
 .TridactylOwnNamespace .tsd-signature,
 .TridactylOwnNamespace .tsd-index-panel h3 {
   border-width: 1px !important;
-  border-color: var(--dracula-current-line) !important;
+  border-color: var(--default-current-line) !important;
 }
 
 .TridactylOwnNamespace .tsd-signature-symbol,
 .TridactylOwnNamespace .tsd-sources {
-  color: var(--dracula-current-line) !important;
+  color: var(--default-current-line) !important;
 }
 
 .TridactylOwnNamespace .hljs-keyword {
-  color: var(--dracula-purple) !important;
+  color: var(--default-purple) !important;
 }
 
 .TridactylOwnNamespace .hljs-string {
-  color: var(--dracula-yellow) !important;
+  color: var(--default-yellow) !important;
 }
 
 .TridactylOwnNamespace .hljs-title,
 .TridactylOwnNamespace .hljs-comment {
-  color: var(--dracula-foreground) !important;
+  color: var(--default-foreground) !important;
 }
