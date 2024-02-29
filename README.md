@@ -17,9 +17,3 @@ Fork the repo
 Edit CSS vars to change colors/font to your preference
 Use :colourscheme --url https://raw.githubusercontent.com/<user>/<your_custom_repository_name>/main/<your_custom_css_name>.css css_custom command to set your custom theme
 ```
-
-What does it look like?
-
-<img src="https://codeberg.org/d13g0/dotfiles/main/screenshots/29:Feb-10:39:15.png" style=" width:100px ; height:100px " />
-
-![Tridactyl Base16-default-dark Screenshot](http://codeberg.org/d13g0/dotfiles/main/screenshots/29:Feb-10:39:15.png)
