@@ -35,8 +35,8 @@
   --tridactyl-hintspan-font-size: var(--tridactyl-small-font-size);
   --tridactyl-hintspan-font-weight: bold;
   --tridactyl-hintspan-fg: var(--default-black);
-  --tridactyl-hintspan-bg: var(--default-green);
-  --tridactyl-hintspan-border-width: 0;
+  --tridactyl-hintspan-bg: var(--default-cyan);
+  --tridactyl-hintspan-border-width: 2;
   --tridactyl-hintspan-js-background: var(--default-red);
 
   /* Hint Element Highlights */
